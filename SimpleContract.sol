@@ -14,7 +14,7 @@ contract SimpleContract {
         candidate[id] = candidate[id].add(1);
     }
     
-    function getVote(uint8 id) public view returns (uint256) {
+    function getVotes(uint8 id) public view returns (uint256) {
         return candidate[id];
     }
 }
